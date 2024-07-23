@@ -1,10 +1,10 @@
 :root {
     --primary-color: #4a90e2;
     --secondary-color: #f39c12;
-    --background-color: #d3d3d3; /* Grey background */
+    --background-color: #d3d3d3; 
     --text-color: #2c3e50;
-    --form-background: rgba(255, 255, 255, 0.6); /* Glass effect */
-    --form-border: rgba(255, 255, 255, 0.4); /* Glass effect */
+    --form-background: rgba(255, 255, 255, 0.6);
+    --form-border: rgba(255, 255, 255, 0.4); 
 }
 
 body {
@@ -27,8 +27,8 @@ body {
     background-color: var(--form-background);
     box-shadow: 0 4px 30px rgba(0, 0, 0, 0.1);
     border-radius: 12px;
-    backdrop-filter: blur(10px); /* Glass effect */
-    -webkit-backdrop-filter: blur(10px); /* Glass effect for Safari */
+    backdrop-filter: blur(10px); 
+    -webkit-backdrop-filter: blur(10px);
     border: 1px solid var(--form-border);
     text-align: center;
 }
@@ -41,7 +41,7 @@ h1 {
 }
 
 form {
-    background: none; /* Transparent background */
+    background: none; 
     padding: 0;
     border: none;
     box-shadow: none;
@@ -94,12 +94,12 @@ button:active {
 
 .result {
     margin-top: 30px;
-    background: var(--form-background); /* Glass effect */
+    background: var(--form-background); 
     padding: 20px;
     border-radius: 8px;
     box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
-    backdrop-filter: blur(10px); /* Glass effect */
-    -webkit-backdrop-filter: blur(10px); /* Glass effect for Safari */
+    backdrop-filter: blur(10px); 
+    -webkit-backdrop-filter: blur(10px); 
     border: 1px solid var(--form-border);
     width: 100%;
     box-sizing: border-box;
